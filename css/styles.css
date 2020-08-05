@@ -1,16 +1,7 @@
-#title {
-  background-color: #ff4c68;
-}
 
-/* features */
-
-#features{
-  padding-top : 50px;
-}
 
 body {
   font-family: 'Montserrat', sans-serif;
-  border-radius: 1px;
 }
 
 h1 {
@@ -37,12 +28,15 @@ p{
   color: #8f8f8f;
 }
 
+/* title */
+#title {
+  background-color: #ff4c68;
+}
+/* navigation bar */
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 8%;
 }
-
-/* navigation bar */
 
 .navbar {
   padding-bottom: 4.5rem;
@@ -63,25 +57,26 @@ p{
   padding-right: 18px;
 }
 
-.rotate30 {
-  -webkit-transform: rotate(25deg);
-  -moz-transform: rotate(25deg);
-  -o-transform: rotate(25deg);
-  -ms-transform: rotate(25deg);
+/* image rotate */
+.title-image {
+  width: 60%;
+  right: 30%;
   transform: rotate(25deg);
-  padding-left: 1.5rem;
-  width: 70%;
-  height: 90%;
+  position: absolute;
 }
 
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
+
 /* features section */
 
 #features{
   padding: 8% 15%;
+  background-color: white;
+  position: relative;
+
 }
 .feature-box{
   text-align: center;
